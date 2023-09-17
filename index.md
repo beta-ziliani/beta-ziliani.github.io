@@ -4,3 +4,8 @@
 
 layout: default
 ---
+# About
+
+This page is at the moment entirely devoted to my professional life, as a developer, as a researcher, and as a professor.
+
+> **Note:** Last updated: {{ "now" | date: "%Y-%m-%d %H:%M" }}.
