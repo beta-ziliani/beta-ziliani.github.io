@@ -6,3 +6,17 @@ layout: default
 ---
 
 # Research
+
+## Journals
+
+{% bibliography --query @article %}
+
+## Proceedings
+
+These are all peer-reviewed, long papers.
+
+{% bibliography --query @*[booktitle ^= Proceedings] %}
+
+## Theses
+
+{% bibliography --query @*[tag = thesis] %}

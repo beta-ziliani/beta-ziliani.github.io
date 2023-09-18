@@ -8,6 +8,6 @@ I've been involved in software development for {{ today | minus: 1998 }} years. 
 
 My [GitHub](https://github.com/beta-ziliani/) profile doesn't lie: my main proficiency today is in [Crystal](https://crystal-lang.org), [OCaml](https://ocaml.org), and the [Coq](https://coq.inria.fr/) proof assistant.
 
-In the past {{ today | minus: 2021 }} years I've been leading the development of the Crystal programming language. Managing an industrial language with a mid-size community proved to be a challenge, but I learned that the key to survive is to assembly a great team to push together to meet the goals.
+In the past {{ today | minus: 2021 }} years I've been leading the development of the Crystal programming language. Managing an industrial language with a mid-size community proved to be a challenge, but I learned that having a great [team](https://www.crystal-lang.org/team) is key to success.
 
 <img src="http://ghchart.rshah.org/beta-ziliani" alt="GitHub chart" />
