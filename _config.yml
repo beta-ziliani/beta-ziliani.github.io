@@ -68,6 +68,7 @@ sidebar:
 
 scholar:
   bibliography: bz.bib
+  bibliography_template: bib
   
 # Exclude from processing.
 # The following items will not be processed, by default.
