@@ -1,37 +1,37 @@
 ---
 ---
+<!-- Volume and pages of the journal, if there's one -->
 {% capture volume %}
 {% if entry.volume %}
 , {{entry.volume}}{% if entry.pages %}({{entry.pages}}){% endif %}
 {% endif %}
 {% endcapture %}
 
+<!-- This logic generates the list of names -->
 {% assign authors = "" | split: ',' %}
 {% for author in entry.author_array %}
-{% assign name = author.last | append: ", " %}
-{% assign firsts = author.first | split: "-" %}
-{% if firsts.size > 1 %}
-{% assign first_array_result = "" | split: ',' %}
-
-{% for first_elem in firsts %}
-{% assign f = first_elem | slice: 0 | append: "." %}
-{% assign first_array_result = first_array_result | push: f %}
+{%   assign name = author.last | append: ", " %}
+{%   assign firsts = author.first | split: "-" %}
+{%   if firsts.size > 1 %}
+{%      assign first_array_result = "" | split: ',' %}
+{%      for first_elem in firsts %}
+{%         assign f = first_elem | slice: 0 | append: "." %}
+{%         assign first_array_result = first_array_result | push: f %}
+{%      endfor %}
+{%      assign first = first_array_result | join: "-" %}
+{%   else %}
+{%     assign first = author.first | slice: 0 | append: "." %}
+{%   endif %}
+{%   assign name = name | append: first %}
+{%   assign authors = authors | push: name %}
 {% endfor %}
-{% assign first = first_array_result | join: "-" %}
-{% else %}
-{% assign first = author.first | slice: 0 | append: "." %}
+
+{{authors | array_to_sentence_string}} ({{entry.year}}). {{entry.title}}.
+  <i>{{entry.journal | default: entry.booktitle | default: entry.school}}{{volume | lstrip}}.</i>
+{% if entry.doi %}
+  (<a href="https://doi.org/{{ entry.doi }}">doi</a>{% if entry.access == "open" %}, open access{% else %}, <a href="./assets/papers/{{entry.file}}">pdf</a>{% endif %})
 {% endif %}
-{% assign name = name | append: first %}
 
-{% assign authors = authors | push: name %}
-{% endfor %}
+<!-- Debug: this is how jekyll-scholar produces it {{reference}} -->
 
-{{authors | array_to_sentence_string}} ({{entry.year}}). {{entry.title}}. <i>{{entry.journal | default: entry.booktitle
-  | default:
-  entry.school}}{{volume |
-  lstrip}}.</i>
-{% if entry.doi %}(<a href="https://doi.org/{{ entry.doi }}">doi</a>){% endif %}
-
-<!-- {{reference}} -->
-
-<!-- {{entry}} -->
+<!-- Debug: this is the raw entry: {{entry}} -->
