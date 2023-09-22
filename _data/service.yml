@@ -1,0 +1,70 @@
+- title: Scientific committee or organizer
+  instances:
+    - name: CrystalConf 2023
+      year: 2023
+      url: crystal-lang.org/events/2023-crystal-berlin/
+    - name: FACAS
+      year: 2022
+      url: https://sites.google.com/view/facas2022/
+    - name: FSCD
+      year: 2021
+      url: https://fscd2021.dc.uba.ar/
+    - name: Crystal 1.0
+      year: 2021
+      url: crystal-lang.org/events/2021-crystal-1.0/
+    - name: SLALM
+      year: 2019
+      url: http://slalmxviii.udec.cl/
+    - name: FunLeP
+      year: 2019
+      url: https://sites.google.com/view/funlep/segundo-encuentro
+- title: Co-chair
+  instances:
+    - name: SBLP
+      year: 2019
+      url: https://cbsoft2019.ufba.br/#/sblp
+- title: Program committee
+  instances:
+    - name: ICFP
+      year: 2023
+      url: https://conf.researchr.org/home/icfp-2023
+    - name: OCaml Workshop
+      year: 2022
+      url: https://ocaml.org/workshops/ocaml-workshop-2022
+    - name: PEPM
+      year: 2022
+      url: https://popl22.sigplan.org/home/pepm-2022
+    - name: TyDe
+      year: 2021
+      url: https://icfp21.sigplan.org/home/TyDe-2021
+    - name: SBLP
+      year: 2020
+      url: http://cbsoft2020.imd.ufrn.br/sblp.php
+    - name: POPL
+      year: 2020
+      url: https://popl20.sigplan.org/
+    - name: CoqPL
+      year: 2018
+      url: https://popl18.sigplan.org/track/CoqPL-2018
+    - name: ICFP
+      year: 2017
+      url: https://conf.researchr.org/home/icfp-2017
+    - name: Coq Workshop
+      year: 2016
+      url: https://coq.inria.fr/coq-workshop/2016
+    - name: HOPE
+      year: 2016
+      url: https://software.imdea.org/~aleks/hope2016/
+- title: External review committee
+  instances:
+    - name: ICFP
+      year: 2020
+      url: https://conf.researchr.org/home/icfp-2020
+    - name: ICFP
+      year: 2016
+      url: https://conf.researchr.org/home/icfp-2016
+- title: Invited talks
+  instances:
+    - name: SBLP
+      year: 2019
+      url: https://cbsoft2019.ufba.br/#/sblp
