@@ -9,7 +9,7 @@ layout: default
 
 I'm a multi-faceted man: I can [develop and lead teams](development.html), [research on a variety of topics](research.html), and [teach in advanced topics of computer science](teaching.html). My passion is developing and understanding programming languages.
 
-I have lots of credentials that you can find in the above links. But this is just an euphemism to say that I'm *not that young* (picture is from 2021). I'm a also a well-tempered person that is not afraid of changes. Yet this last bit is another euphemism to say that I don't properly assess risk.
+I have lots of credentials that you can find in the above links. But this is just an euphemism to say that I'm *not that young*. I'm a also a well-tempered person that is not afraid of changes. Yet this last bit is another euphemism to say that I don't properly assess risk.
 
 On a personal note, I'm a bisexual father of two, and a music lover. But nothing of that will be in display here.
 
