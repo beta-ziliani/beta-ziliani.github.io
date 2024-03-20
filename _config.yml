@@ -23,7 +23,7 @@ logo: /assets/img/yo-manas-2021-bm.png
 email: <a href="mailto:beta.ziliani@gmail.com">beta.ziliani@gmail.com</a>
 description: >- # this means to ignore newlines until "baseurl:"
   Team Lead and Product Manager @ <a href="https://www.manas.tech" target=_blank>Manas.Tech</a>.
-  Associate Lecturer @ <a href="https://famaf.unc.edu.ar" target=_blank>FAMAF, UNC</a>.
+  Past Associate Lecturer @ <a href="https://famaf.unc.edu.ar" target=_blank>FAMAF, UNC</a>.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  beta-ziliani
@@ -40,20 +40,23 @@ remote_theme: BDHU/minimalist
 
 sidebar:
   - name: About
-    icon: 🏠
+    icon: <i class="fa-solid fa-house"></i>
     link: index.html
   - name: Development
-    icon: 💻
+    icon: <i class="fa-solid fa-computer"></i>
     link: development.html
   - name: Research
-    icon: 🔎
+    icon: <i class="fa-solid fa-book"></i>
     link: research.html
   - name: Teaching
-    icon: 🎓
+    icon: <i class="fa-solid fa-chalkboard-user"></i>
     link: teaching.html
   - name:
     icon:
     link:  
+  - name: Curriculum Vitae
+    icon: <i class="fa-solid fa-file"></i>
+    link: ./assets/papers/CV_Ziliani_202402.pdf
   - name: Google Scholar
     icon: <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align:-0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5L12 0l12 9.5l-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14a7 7 0 0 0 0-14z" fill="currentColor"/></svg>
     link: https://scholar.google.com/citations?user=zPeBksEAAAAJ
