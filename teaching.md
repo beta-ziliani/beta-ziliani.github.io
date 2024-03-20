@@ -4,10 +4,9 @@ layout: default
 
 # Teaching
 
-{% assign today = site.time | date: '%Y' %}
-I love teaching, first and foremost because I love learning. Teaching is something I've done for more than {{ today | minus: 2013 }} years. Since 2023 I'm an Associate Lecturer at [FAMAF, UNC](https://famaf.unc.edu.ar).
+I love teaching, first and foremost because I love learning. Teaching is something I've done for more than eleven years. Unfortunately, teaching in Argentina has become challenging because the current government is severely cutting [funding to science and teaching](https://phys.org/news/2024-03-nobel-laureates-milei-canceling-scientific.html). Therefore, I decided step aside in order to restore my mental health.
 
-I taught the following subjects:
+I was Associate Lecturer at [FAMAF, UNC](https://famaf.unc.edu.ar) before leaving. Among others, I taught the following subjects:
 
 ## Advanced Concepts of Programming Languages
 
