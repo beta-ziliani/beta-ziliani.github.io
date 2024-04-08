@@ -37,3 +37,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "jekyll-remote-theme"
+
+# gems that were part of the stdlib but were removed
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "observer"
