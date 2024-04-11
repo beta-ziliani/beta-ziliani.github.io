@@ -13,6 +13,8 @@ Then I moved back to Argentina and got a researcher position at [CONICET](http:/
 
 | [<i class="fa-solid fa-briefcase"></i> Service](#service) |  [<i class="fa-solid fa-users"></i> Alumni](#alumni) | [<i class="fa-solid fa-book"></i> Publications](#publications) |
 
+<br/>
+
 ## <a name="service"></a> <i class="fa-solid fa-briefcase"></i> Service
 
 {% for service in site.data.service %}
@@ -21,6 +23,7 @@ Then I moved back to Argentina and got a researcher position at [CONICET](http:/
 
 {% endfor %}
 
+<br/>
 ## <a name="alumni"></a> <i class="fa-solid fa-users"></i> Alumni
 
 ### PhD
@@ -31,6 +34,7 @@ Then I moved back to Argentina and got a researcher position at [CONICET](http:/
 
 {% bibliography --query @masterthesis[tag = student] %}
 
+<br/>
 ## <a name="publications"></a> <i class="fa-solid fa-book"></i> Publications
 
 ### Journals
