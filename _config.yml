@@ -41,16 +41,19 @@ remote_theme: BDHU/minimalist
 sidebar:
   - name: About
     icon: <i class="fa-solid fa-house"></i>
-    link: index.html
+    link: /index.html
   - name: Development
     icon: <i class="fa-solid fa-computer"></i>
-    link: development.html
+    link: /development.html
   - name: Research
     icon: <i class="fa-solid fa-book"></i>
-    link: research.html
+    link: /research.html
   - name: Teaching
     icon: <i class="fa-solid fa-chalkboard-user"></i>
-    link: teaching.html
+    link: /teaching.html
+  - name: Blog
+    icon: <i class="fa-solid fa-blog"></i>
+    link: /blog.html
   - name:
     icon:
     link:  
