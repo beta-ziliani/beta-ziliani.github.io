@@ -16,6 +16,6 @@ You can check more in my [<i class="fa-solid fa-file"></i> Curriculum Vitae](./a
 
 My GitHub chart, simply because graphs are pretty:
 
-<img src="http://ghchart.rshah.org/beta-ziliani" alt="GitHub chart" />
+<img src="https://ghchart.rshah.org/6498D3/beta-ziliani" alt="GitHub chart" />
 
 (Kudos to [ghchart](http://ghchart.rshah.org)!)
