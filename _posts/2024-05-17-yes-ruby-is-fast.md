@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Yes, Ruby is fast, but..."
+title: "Yes, Ruby is fast, but..."
 author: beta-ziliani
-date:   2024-05-17
+date: 2024-05-17
+tags: ruby crystal programming performance
 ---
 
 _This post appeared first in [dev.to](https://dev.to/betaziliani/yes-ruby-is-fast-but-1l49). I decided to bring it to my page and to cleanly incorporate the edits._
