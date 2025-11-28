@@ -22,8 +22,7 @@ title: Beta Ziliani
 logo: /assets/img/yo-manas-2021-bm.png
 email: <a href="mailto:beta.ziliani@gmail.com">beta.ziliani@gmail.com</a>
 description: >- # this means to ignore newlines until "baseurl:"
-  Team Lead and Product Manager @ <a href="https://www.manas.tech" target=_blank>Manas.Tech</a>.
-  Past Associate Lecturer @ <a href="https://famaf.unc.edu.ar" target=_blank>FAMAF, UNC</a>.
+  Head of Theory of Computation group at <a href="https://fi.ort.edu.uy">Universidad ORT Uruguay</a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://beta-ziliani.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  beta-ziliani

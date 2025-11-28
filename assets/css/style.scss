@@ -1,8 +1,12 @@
 ---
 ---
 
+@use "{{ site.theme }}";
+
 :root {
   --clr-a-text: #75aadb;
 }
 
-@import "{{ site.theme }}";
+div.sidebar {
+  width: 200px;
+}
