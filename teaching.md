@@ -4,9 +4,9 @@ layout: default
 
 # Teaching
 
-I love teaching, first and foremost because I love learning. Teaching is something I've done for more than eleven years. Unfortunately, teaching in Argentina has become challenging because the current government is severely cutting [funding to science and teaching](https://phys.org/news/2024-03-nobel-laureates-milei-canceling-scientific.html). Therefore, I decided step aside in order to restore my mental health.
+I love teaching, first and foremost because I love learning. Teaching is something I've done for more than eleven years. Most of my expierence comes from my role as Associate Lecturer at [FAMAF, UNC](https://famaf.unc.edu.ar), but recently I moved to [Universidad ORT Uruguay](https://fi.ort.edu.uy) as *Catedrático* of Theory of Computation. My new role is not only to teach but also to ensure that the several courses in the area run smoothly.
 
-I was Associate Lecturer at [FAMAF, UNC](https://famaf.unc.edu.ar) before leaving. Among others, I taught the following subjects:
+Among others, I taught the following subjects:
 
 ## Advanced Concepts of Programming Languages
 
